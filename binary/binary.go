@@ -1,3 +1,4 @@
+// http://en.wikipedia.org/wiki/Bacon's_cipher
 package main
 
 import (
@@ -5,8 +6,6 @@ import (
 	"strconv"
 	"strings"
 )
-
-// http://en.wikipedia.org/wiki/Bacon's_cipher
 
 func abCodeToChar(abCode string) string {
 	binaryCode := strings.Map(func(r rune) rune {
