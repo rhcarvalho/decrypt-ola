@@ -27,7 +27,7 @@ func decode(m, key byte) byte {
 }
 
 func main() {
-	m := "z kdqe yc ss zwem mfi dbi o vfdh aj icipwg hnzc vgza rs kc es dyffbjsc"
+	m := "Z KDQE YC SS ZWEM MFI DBO O VFDH AJ ICIPWG HNZC VGZA RS KC ES DYFFBJSC"
 	key := "rodolfo"
 	fmt.Println(Decode(m, key))
 }
